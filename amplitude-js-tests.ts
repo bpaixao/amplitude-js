@@ -1,4 +1,4 @@
-import amplitude = require('amplitude-js');
+import amplitude = require('Amplitude-JS');
 
 (() => {
     let client: amplitude.AmplitudeClient = new amplitude.AmplitudeClient();
@@ -6,7 +6,7 @@ import amplitude = require('amplitude-js');
     let revenue: amplitude.Revenue = new amplitude.Revenue();
 
     client = amplitude.getInstance();
-    client = amplitude.getInstance('some name');
+    client = amplitude.getInstance('coleagueMobility');
 
     amplitude.__VERSION__ === '1.2.3';
     amplitude.options.logLevel = 'WARN';
