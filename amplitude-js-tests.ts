@@ -5,7 +5,7 @@ import amplitude = require('Amplitude-JS');
     let identify: amplitude.Identify = new amplitude.Identify();
     let revenue: amplitude.Revenue = new amplitude.Revenue();
 
-    client = amplitude.getInstance();
+    
     client = amplitude.getInstance('coleagueMobility');
 
     amplitude.__VERSION__ === '1.2.3';
