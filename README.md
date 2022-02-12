@@ -1,5 +1,5 @@
 # How Amplitude Analitycs Works
-SUGGEST EDITS
+
 To understand how Amplitude works, let’s walk through a hypothetical example.
 
 Tunes is a standard music player for mobile devices that has common actions like playing a song, skipping a song, shuffling play, and sharing a song.
